@@ -1,0 +1,17 @@
+{
+    "name": "null",
+    "description": "null",
+    "repository": "github:demo-source/nyc-issues-931",
+    "license": "Unlicense",
+    "dependencies": {
+        "nyc": "^13.1.0"
+    },
+    "scripts": {
+        "test": "node test"
+    },
+    "nyc": {
+        "exclude": [
+            "test.js"
+        ]
+    }
+}
